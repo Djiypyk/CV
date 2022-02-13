@@ -1,0 +1,10 @@
+.header {
+    height: 80px;
+    background-color: #000028;
+
+}
+.navPosition {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}

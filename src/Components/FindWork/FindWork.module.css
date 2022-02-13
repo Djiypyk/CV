@@ -1,0 +1,40 @@
+.findWorkWrapper {
+    min-height: 40vh;
+    background-color: #eacf99;
+}
+
+.findWorkItem {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+}
+
+
+.buttonLink {
+    width: 80px;
+    padding: 1px;
+    border: 3px solid black;
+    border-radius: 8px;
+    margin-bottom: 15px;
+}
+
+.buttonLink a {
+    text-decoration: none;
+    color: black;
+}
+
+.buttonLink:hover {
+    transition: ease-in-out 0.5s;
+    width: 130px;
+    background-color: black;
+    color: white;
+
+}
+
+.buttonLink a:hover {
+    transition: ease-in-out 0.3s;
+    color: white;
+    font-size: 18px;
+    font-weight: 900;
+}

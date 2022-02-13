@@ -1,0 +1,10 @@
+.myWorkContainer {
+    background-color: #bda1fd;
+    min-height: 70vh;
+}
+
+.previewWorkContainer {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}

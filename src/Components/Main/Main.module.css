@@ -1,0 +1,21 @@
+.mainBlock {
+    height: 100vh;
+    background-color: #3498db;
+}
+
+
+.greeting {
+    width: 300px;
+    background-color: darkgrey;
+}
+.inContainer{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.photo {
+    max-width: 300px;
+    max-height: 400px;
+    background-color: darkgrey;
+}
