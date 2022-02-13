@@ -13,14 +13,14 @@ export function RecruiterForm() {
                     <div className={styles.formItemWrapper}>
                         <form action="">
                             <div>
-                                <label htmlFor="name"></label>
-                                <br/>
+                                {/*<label htmlFor="name"></label>*/}
+                                {/*<br/>*/}
                                 <input placeholder={'Name'} className={styles.inputForm} type="text" id='name' required/>
-                                <br/>
-                                <label htmlFor="email"></label>
-                                <br/>
+                                {/*<br/>*/}
+                                {/*<label htmlFor="email"></label>*/}
+                                {/*<br/>*/}
                                 <input placeholder={'Email'} className={styles.inputForm} type="email" id='email' required/>
-                                <br/>
+                                {/*<br/>*/}
                                 <textarea placeholder={'Write your message'} className={styles.textAreaFrom} required
                                           name="RecruiterMessage" id="textAreaForm"
                                 />
