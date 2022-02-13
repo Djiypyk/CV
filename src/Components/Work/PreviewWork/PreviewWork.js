@@ -9,6 +9,7 @@ export function PreviewWork(props) {
             <div className={styles.previewWorkImage}>
                 <a href={props.workUrl}>
                     <img style={{width: '100%'}} src={props.photo} alt="This it`s my work"/>
+                    <p className={styles.previewWorkButton}>See more</p>
                 </a>
             </div>
             <span style={{fontSize: '18px', fontWeight: '600'}}>{props.projectName}</span>

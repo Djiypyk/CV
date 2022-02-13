@@ -7,14 +7,14 @@ function Main() {
 
     return (
         <div className={styles.mainBlock}>
-            <div className={containerStyle.container + " " + styles.inContainer}>
+            <div className={`${containerStyle.container} ${styles.inContainer}`}>
                 <div className={styles.greeting}>
                     <span>Hi There.</span>
                     <h1>I am <br/>Nikolai Zarezako</h1>
                     <p>Frontend Developer</p>
                 </div>
                 <div className={styles.photo}>
-                    <img style={{width: '99%'}} src={myPhoto} alt="Nikolai Zarezako"/>
+                    <img style={{width: '100%'}} src={myPhoto} alt="Nikolai Zarezako"/>
                 </div>
             </div>
         </div>

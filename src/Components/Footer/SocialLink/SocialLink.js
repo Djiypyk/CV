@@ -5,7 +5,7 @@ export function SocialLink(props){
 
     return (
 
-            <a target='_blank' href={props.socialLink}><div className={styles.square}> </div></a>
+            <a target='_blank' rel="noreferrer" href={props.socialLink}><div className={styles.square}> </div></a>
 
     )
 }
