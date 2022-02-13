@@ -1,5 +1,11 @@
 .footerWrapper{
     background-color: blanchedalmond;
-    min-height: 30vh;
     text-align: center;
+    padding-bottom: 10px;
+}
+.squareWrapper{
+    max-width: 500px;
+    margin: 0 auto 10px auto;
+    display: flex;
+    justify-content: space-around;
 }
