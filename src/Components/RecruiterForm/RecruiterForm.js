@@ -27,7 +27,7 @@ export function RecruiterForm() {
                             </div>
                         </form>
                     </div>
-                    <input type="submit" value={'Send Message'}/>
+                    <input className={styles.sendButton} type="submit" value={'Send Message'}/>
                 </div>
             </div>
         </div>
