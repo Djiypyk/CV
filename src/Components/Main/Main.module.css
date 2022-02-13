@@ -1,6 +1,6 @@
 .mainBlock {
-    min-height: 90vh;
-    padding-bottom: 20px;
+    height: auto;
+    padding: 40px 0;
     background-color: #3498db;
 }
 
