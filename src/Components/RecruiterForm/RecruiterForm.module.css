@@ -1,0 +1,23 @@
+.formWrapper{
+    background-color: #61dafb;
+    padding-bottom: 50px;
+}
+.formContent{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    text-align: center;
+}
+.formItemWrapper{
+    width: 60%;
+}
+.inputForm{
+    width: 50%;
+    margin-bottom: 10px;
+}
+.textAreaFrom{
+    resize: none;
+    width: 70%;
+    min-height: 100px;
+}

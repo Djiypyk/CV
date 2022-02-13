@@ -1,6 +1,7 @@
 .myWorkContainer {
     background-color: #bda1fd;
-    min-height: 70vh;
+    padding-bottom: 50px;
+
 }
 
 .previewWorkContainer {

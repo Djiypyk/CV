@@ -11,11 +11,11 @@ export function FindWork() {
                     <div>
                         <h2>Looking for a job:</h2>
                         <p style={{margin: '0 0 5px 0'}}>Office. With the possibility of relocation.</p>
-                        <p style={{margin: '0 0 5px 0'}}>Or</p>
+                        <p style={{margin: '0 0 5px 0', fontWeight: '700'}}>Or</p>
                         <p style={{margin: '0 0 10px 0'}}>Remote Work</p>
                     </div>
                     <div className={styles.buttonLink}>
-                        <a href="#recrutingForm">Write me</a>
+                        <a href="/#">Write me</a>
                     </div>
                 </div>
 
