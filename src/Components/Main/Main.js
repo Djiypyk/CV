@@ -13,8 +13,8 @@ function Main() {
                     <h1>I am <br/>Nikolai Zarezako</h1>
                     <p>Frontend Developer</p>
                 </div>
-                <div className={styles.photo}>
-                    <img style={{width: '100%'}} src={myPhoto} alt="Nikolai Zarezako"/>
+                <div className={styles.photoContainer}>
+                    <img className={styles.photo} src={myPhoto} alt="Nikolai Zarezako"/>
                 </div>
             </div>
         </div>

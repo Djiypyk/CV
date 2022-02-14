@@ -16,6 +16,12 @@
     justify-content: space-evenly;
 }
 
-.photo {
+.photoContainer {
     max-width: 300px;
+    text-align: center;
+}
+.photo{
+    width: 90%;
+    border-radius: 20px;
+    box-shadow: 0 10px 10px 10px rgba(0,0,0,.5);
 }
