@@ -1,6 +1,5 @@
 .mainBlock {
-    height:100vh;
-    padding: 40px 0;
+    height: 100vh;
     background-color: #3498db;
 }
 
@@ -20,8 +19,9 @@
     max-width: 300px;
     text-align: center;
 }
-.photo{
+
+.photo {
     width: 90%;
     border-radius: 20px;
-    box-shadow: 0 10px 10px 10px rgba(0,0,0,.5);
+    box-shadow: 0 10px 10px 10px rgba(0, 0, 0, .5);
 }

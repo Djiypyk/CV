@@ -15,7 +15,7 @@ export function Footer() {
                     <SocialLink socialLink={'https://t.me/Djiypyk'}/>
                     <SocialLink socialLink={'https://www.linkedin.com/in/nikolai-zarezako-99592121a/'}/>
                 </div>
-                <span style={{fontWeight: '600'}}> &copy; 2022 Все права защищены</span>
+                <span className={styles.footerItem}> &copy; 2022 Все права защищены</span>
             </div>
         </div>
     )

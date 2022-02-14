@@ -12,8 +12,8 @@ export function PreviewWork(props) {
                     <p className={styles.previewWorkButton}>See more</p>
                 </a>
             </div>
-            <span style={{fontSize: '18px', fontWeight: '600'}}>{props.projectName}</span>
-            <p style={{fontSize: '14px'}}>{props.description}</p>
+            <span className={styles.spanItem}>{props.projectName}</span>
+            <p className={styles.pItem}>{props.description}</p>
         </div>
     )
 }

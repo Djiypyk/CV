@@ -1,6 +1,6 @@
 .formWrapper {
     background-color: #61dafb;
-    padding-bottom: 50px;
+
 }
 
 .formContent {
@@ -18,12 +18,14 @@
 .inputForm {
     width: 50%;
     margin-bottom: 10px;
+    border-radius: 7px;
 }
 
 .textAreaFrom {
     resize: none;
     width: 70%;
     min-height: 100px;
+    border-radius: 7px;
 }
 
 .sendButton {
@@ -31,4 +33,5 @@
     background-color: #000028;
     color: white;
     cursor: pointer;
+    margin-bottom: 50px;
 }
