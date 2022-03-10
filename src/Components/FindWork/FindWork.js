@@ -9,10 +9,10 @@ export function FindWork() {
             <div className={containerStyles.container}>
                 <div className={styles.findWorkItem}>
                     <div>
-                        <h2>Looking for a job:</h2>
-                        <p style={{margin: '0 0 5px 0'}}>Office. With the possibility of relocation.</p>
-                        <p style={{margin: '0 0 5px 0', fontWeight: '700'}}>Or</p>
-                        <p style={{margin: '0 0 10px 0'}}>Remote Work</p>
+                        <h2 className={styles.title}>Looking for a job:</h2>
+                        <p>Office. With the possibility of relocation.</p>
+                        <p>Or</p>
+                        <p>Remote Work</p>
                     </div>
                     <div className={styles.buttonLink}>
                         <a href="/#">Write me</a>

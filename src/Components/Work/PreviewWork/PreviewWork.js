@@ -7,7 +7,7 @@ export function PreviewWork(props) {
     return (
         <div className={styles.previewWork}>
             <div className={styles.previewWorkImage}>
-                <a href={props.workUrl}>
+                <a target="_blank" rel="noopener noreferrer" href={props.workUrl}>
                     <img style={{width: '100%'}} src={props.photo} alt="This it`s my work"/>
                     <p className={styles.previewWorkButton}>See more</p>
                 </a>

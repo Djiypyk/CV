@@ -1,6 +1,7 @@
 .formWrapper {
-    background-color: #61dafb;
-
+    background-color: #171717;
+    color: rgb(215, 214, 214);
+    padding: 35px 0 15px 0;
 }
 
 .formContent {
@@ -13,6 +14,13 @@
 
 .formItemWrapper {
     width: 60%;
+}
+
+.title {
+    padding-top: 5px;
+    box-shadow: 0 4px 10px 2px rgb(114, 114, 114);
+    width: 65%;
+    border-radius: 7px;
 }
 
 .inputForm {
@@ -30,8 +38,7 @@
 
 .sendButton {
     font-size: 16px;
-    background-color: #000028;
+    background-color: darkgrey;
     color: white;
     cursor: pointer;
-    margin-bottom: 50px;
 }
