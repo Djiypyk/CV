@@ -5,32 +5,52 @@
     perspective: 1000px;
     perspective-origin: 50% 50%;
 }
+
 @keyframes scroll {
-    100%{
-        background-position:0px -3000px;
+    100% {
+        background-position: 0 -3000px;
     }
 }
+
 @media (prefers-reduced-motion) {
     .wrapper {
         animation: scroll 200s linear infinite;
     }
 }
+
 @media (min-width: 670px) {
     .title {
         font-size: 5rem;
     }
 }
 
+h1 {
+    margin: 15px 0;
+}
 
 .greeting {
     width: 300px;
-    color: #bdbdbd;
-    letter-spacing: 0.2rem;
+    color: rgb(255, 255, 255);
 }
-.greeting span{
-    font-size: 18px;
+
+.mainName {
+    font-size: 28px;
+    position: relative;
 }
-.greeting p{
+
+.mainName::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: 11px;
+    width: 100%;
+    z-index: -1;
+    background: #7aa4e1;
+}
+
+.greeting p {
     font-size: 18px;
 }
 

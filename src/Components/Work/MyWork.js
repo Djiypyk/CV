@@ -10,12 +10,12 @@ function MyWork() {
     return (
         <div className={styles.myWorkContainer}>
             <div className={containerStyle.container}>
-                <h2 style={{textAlign: 'center', marginBottom: '70px'}}>My Work</h2>
+                <h2 className={styles.title} style={{textAlign: 'center', marginBottom: '70px'}}>My Work</h2>
                 <div className={styles.previewWorkContainer}>
-                    <PreviewWork photo={photo} projectName={'This is Name'}
-                                 workUrl={'/#'}
+                    <PreviewWork photo={photo} projectName={'TodoList'}
+                                 workUrl={'https://djiypyk.github.io/incubator-todo/'}
                                  description={'Work work work, eat, work work work, sleep...'}/>
-                    <PreviewWork photo={photo} projectName={'This is Name'}
+                    <PreviewWork photo={photo} projectName={'Social Network'}
                                  workUrl={'/#'}
                                  description={'Work work work, eat, work work work, sleep...'}/>
                 </div>

@@ -18,9 +18,10 @@
 
 }
 .previewWorkImage:hover{
-    max-width: 430px;
-    transition: ease-in-out .5s;
-    box-shadow: 0 15px 15px -5px rgba(0,0,0, .5);
+    /*max-width: 430px;*/
+    transition: 1s;
+    transform: scale(1.1);
+    box-shadow: 0 15px 15px 5px rgba(187, 187, 187, 0.5);
 }
 .previewWorkButton{
     width: 100px;
@@ -28,6 +29,7 @@
     position: absolute;
     color: white;
     border: white 1px solid;
+    border-radius: 5px;
     background-color: rgba(166, 166, 166, 0.5);
 }
 
