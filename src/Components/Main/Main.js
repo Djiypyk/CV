@@ -6,7 +6,7 @@ import myPhoto from './img/IMG_8607 (1).jpg'
 function Main() {
 
     return (
-        <div className={styles.mainBlock}>
+        <div id={'aboutMe'} className={styles.mainBlock}>
             <div className={`${containerStyle.container} ${styles.inContainer}`}>
                 <div className={styles.greeting}>
                     <span>Hi There.</span>

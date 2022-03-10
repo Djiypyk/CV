@@ -5,7 +5,7 @@ function Nav() {
 
     return (
         <div className={styles.nav}>
-            <a href="/#">About</a>
+            <a href="#aboutMe">About</a>
             <a href="/#">Skills</a>
             <a href="/#">Project</a>
             <a href="/#">Contact</a>
