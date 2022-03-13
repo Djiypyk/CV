@@ -37,16 +37,13 @@
 }
 
 .buttonLink:hover {
-    transition: ease-in-out 0.5s;
-    width: 130px;
-    font-size: 20px;
-    background-color: goldenrod;
+    background-color: darkgrey;
     color: white;
+    cursor: pointer;
+    border-radius: 10px;
 }
 
 .buttonLink a:hover {
-    transition: ease-in-out 0.3s;
-    color: white;
-    font-size: 18px;
-    font-weight: 900;
+    color: black;
+    font-size: 16px;
 }
