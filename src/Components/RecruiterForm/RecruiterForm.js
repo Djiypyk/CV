@@ -14,6 +14,7 @@ export function RecruiterForm() {
                         <form>
                             <input placeholder={'Name'} className={styles.inputForm} type="text" id='name'
                                    required/>
+                            <br/>
                             <input placeholder={'Email'} className={styles.inputForm} type="email" id='email'
                                    required/>
                             <textarea placeholder={'Write your message'} className={styles.textAreaFrom}

@@ -10,7 +10,7 @@ function Main() {
             <div className={`${containerStyle.container} ${styles.inContainer}`}>
                 <div className={styles.greeting}>
                     <p>Hi There.</p>
-                    <h1 style={{fontSize: '26px'}}>I am <span className={styles.mainName}>Nikolai Zarezako</span></h1>
+                    <h1 style={{fontSize: '25px'}}>I am <span className={styles.mainName}>Mikalai Zarazaka</span></h1>
                     <p>Frontend Developer</p>
                 </div>
                 <div className={styles.photoContainer}>

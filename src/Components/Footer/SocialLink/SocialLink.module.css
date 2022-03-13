@@ -1,5 +1,8 @@
-.square{
-    background-color: darkgrey;
+.footer_img {
     width: 40px;
     height: 40px;
+}
+
+.footer_img:hover {
+    filter: invert(20%);
 }
