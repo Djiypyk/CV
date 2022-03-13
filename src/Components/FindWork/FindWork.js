@@ -14,9 +14,6 @@ export function FindWork() {
                         <p>Or</p>
                         <p>Remote Work</p>
                     </div>
-                    <div className={styles.buttonLink}>
-                        <a href="/#">Write me</a>
-                    </div>
                 </div>
 
             </div>

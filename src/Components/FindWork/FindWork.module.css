@@ -18,32 +18,8 @@
     padding-top: 5px;
     margin-bottom: 30px;
 }
+
 .findWorkItem p {
     margin: 12px 0;
     font-size: 18px;
-}
-
-.buttonLink {
-    width: 90px;
-    padding: 5px;
-    border: 3px solid #c5c5c5;
-    border-radius: 8px;
-    cursor: pointer;
-}
-
-.buttonLink a {
-    text-decoration: none;
-    color: white;
-}
-
-.buttonLink:hover {
-    background-color: darkgrey;
-    color: white;
-    cursor: pointer;
-    border-radius: 10px;
-}
-
-.buttonLink a:hover {
-    color: black;
-    font-size: 16px;
 }

@@ -2,8 +2,8 @@ import React from 'react'
 import styles from './MyWork.module.css';
 import containerStyle from './../../common/Container.module.css';
 import {PreviewWork} from "./PreviewWork/PreviewWork";
-import photo from './img/borsch.jpg'
 import todolist from './img/todolist.png'
+import socialWork from './img/socialNetwork.jpg'
 
 function MyWork() {
 
@@ -16,8 +16,8 @@ function MyWork() {
                     <PreviewWork photo={todolist} projectName={'TodoList'}
                                  workUrl={'https://djiypyk.github.io/incubator-todo/'}
                                  description={'Work work work, eat, work work work, sleep...'}/>
-                    <PreviewWork photo={photo} projectName={'Social Network'}
-                                 workUrl={'/#'}
+                    <PreviewWork photo={socialWork} projectName={'Social Network'}
+                                 workUrl={'https://Djiypyk.github.io/social-network'}
                                  description={'Work work work, eat, work work work, sleep...'}/>
                 </div>
 
