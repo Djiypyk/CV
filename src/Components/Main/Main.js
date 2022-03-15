@@ -14,7 +14,10 @@ function Main() {
                     </div>
                     <div className={styles.greeting}>
                         <h1>I'm Mikalai Zarazaka</h1>
-                        <p>Frontend Developer</p>
+                        <span>Frontend Developer</span>
+                        <p>I enjoy programming and would like to succeed in software development career. I constantly
+                            polish my tech skills, study new technologies and improve my English.
+                        </p>
                     </div>
                 </div>
             </div>
