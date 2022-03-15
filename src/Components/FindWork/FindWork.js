@@ -15,9 +15,7 @@ export function FindWork() {
                         <p>Remote Work</p>
                     </div>
                 </div>
-
             </div>
-
         </div>
     )
 }

@@ -5,8 +5,9 @@
     top: 0;
     min-height: 2em;
     z-index: 5;
-
 }
+
+
 .navPosition {
     display: flex;
     justify-content: flex-end;
