@@ -2,6 +2,8 @@ import React from 'react'
 import styles from './Main.module.css';
 import containerStyle from './../../common/Container.module.css'
 import myPhoto from './img/IMG_8607 (1).jpg'
+import {Button} from "../Button/Button";
+import CV from './img/CV.pdf'
 
 function Main() {
 
@@ -18,6 +20,9 @@ function Main() {
                         <p>I enjoy programming and would like to succeed in software development career. I constantly
                             polish my tech skills, study new technologies and improve my English.
                         </p>
+                        <div className={styles.buttonDownload}>
+                            <Button link={CV} download={true} text={'Download CV'}/>
+                        </div>
                     </div>
                 </div>
             </div>
