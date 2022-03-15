@@ -1,7 +1,7 @@
 .formWrapper {
     background: rgba(17, 17, 17, 0.97);
-    color: rgb(215, 214, 214);
-    padding: 35px 0 15px 0;
+    color: white;
+    padding: 35px 0 30px 0;
 }
 
 .formContent {
@@ -53,12 +53,22 @@
     text-decoration: none !important;
     outline: none !important;
     cursor: pointer !important;
-
 }
 
 .sendButton:hover {
     color: #ffb400;
     border: 1px white solid;
-    /*background-color: darkgrey;*/
 }
 
+@media (max-width: 767px) {
+    /*.formItemWrapper {*/
+    /*    width: 90%;*/
+    /*}*/
+    .inputForm{
+        width: 100%;
+    }
+    .textAreaFrom{
+        width: 100%;
+    }
+
+}

@@ -1,16 +1,14 @@
 .footerWrapper{
     background-color: #4b4b4b;
-    color: rgb(215, 214, 214);
     text-align: center;
     padding: 15px 0;
 }
 .footer_name{
-    padding-bottom: 5px;
     color: white;
 }
 .squareWrapper{
     max-width: 500px;
-    margin: 0 auto 10px auto;
+    margin: 7px auto;
     display: flex;
     justify-content: space-around;
 }
