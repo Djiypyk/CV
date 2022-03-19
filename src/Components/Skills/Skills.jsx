@@ -13,7 +13,7 @@ function Skills() {
     return (
         <div id={'skills'} className={styles.skillsBlock}>
             <div className={containerStyle.container}>
-                <h2 className={styles.title}>My Skills</h2>
+                <h2>My Skills</h2>
                 <div className={styles.skills}>
                     <Skill title={"CSS"} img={CSS} description={'loream loream text text text loream loream...'}/>
                     <Skill title={"JS"} img={JS} description={'loream loream loream loream...'}/>

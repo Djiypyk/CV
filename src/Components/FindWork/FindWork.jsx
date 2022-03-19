@@ -8,8 +8,8 @@ export function FindWork() {
         <div className={styles.findWorkWrapper}>
             <div className={containerStyles.container}>
                 <div className={styles.findWorkItem}>
+                    <h2>Looking for a job:</h2>
                     <div>
-                        <h2 className={styles.title}>Looking for a job:</h2>
                         <p>Office. With the possibility of relocation.</p>
                         <p>Or</p>
                         <p>Remote Work</p>

@@ -3,12 +3,6 @@
     padding: 35px 0 15px 0;
 }
 
-.title {
-    text-align: center;
-    border-radius: 7px;
-    box-shadow: 0 4px 10px 2px rgb(114, 114, 114);
-    padding-top: 5px;
-}
 
 .skills {
     min-height: 100px;

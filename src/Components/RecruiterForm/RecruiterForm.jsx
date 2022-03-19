@@ -9,7 +9,7 @@ export function RecruiterForm() {
         <div id={'contacts'} className={styles.formWrapper}>
             <div className={containerStyles.container}>
                 <div className={styles.formContent}>
-                    <h2 className={styles.title}>Contacts</h2>
+                    <h2>Contacts</h2>
                     <div className={styles.formItemWrapper}>
                         <form>
                             <input placeholder={'Name'} className={styles.inputForm} type="text" id='name'

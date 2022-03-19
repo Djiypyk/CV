@@ -11,7 +11,7 @@ function MyWork() {
     return (
         <div id={'MyWork'} className={styles.myWorkContainer}>
             <div className={containerStyle.container}>
-                <h2 className={styles.title} style={{textAlign: 'center', marginBottom: '70px'}}>My Work</h2>
+                <h2>My Work</h2>
                 <div className={styles.previewWorkContainer}>
                     <PreviewWork photo={todolist} projectName={'TodoList'}
                                  workUrl={'https://djiypyk.github.io/incubator-todo/'}

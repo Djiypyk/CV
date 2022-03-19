@@ -6,7 +6,9 @@
 }
 
 h2 {
+    text-align: center;
     color: #ffb400;
-    background: rgba(17, 17, 17, 0.97);
     line-height: 26px;
+    text-shadow: #9a9999 2px 0 10px;
+    padding-top: 10px;
 }
