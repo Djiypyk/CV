@@ -1,8 +1,8 @@
 import React from "react";
-import styles from './RecruiterForm.module.css'
+import styles from './ContactsForm.module.css'
 import containerStyles from './../../common/Container.module.css'
 
-export function RecruiterForm() {
+export function ContactsForm() {
 
 
     return (

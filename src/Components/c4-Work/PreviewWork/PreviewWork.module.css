@@ -1,4 +1,5 @@
 .previewWork {
+    /*max-width: 400px;*/
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -7,7 +8,7 @@
 }
 
 .previewWorkImage {
-    max-width: 400px;
+    max-width: 350px;
 }
 
 .previewWorkImage a {
@@ -16,7 +17,7 @@
     justify-content: center;
     align-items: center;
     position: relative;
-    margin-bottom: 8px;
+    margin-bottom: 15px;
 }
 
 .work_img {
@@ -43,15 +44,20 @@
 }
 
 .spanItem {
-    margin-top: 10px;
+    margin: 5px 0;
+    min-height: 30px;
     font-size: 20px;
     font-weight: 600;
     line-height: 26px;
+    color: #ffb400;
 }
 
 .pItem {
     font-size: 16px;
     line-height: 20px;
+    max-width: 350px;
+    max-height: 70px;
+    margin-bottom: 40px;
 }
 
 @media (max-width: 767px) {

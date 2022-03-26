@@ -2,7 +2,7 @@ import React from 'react'
 import styles from './Main.module.css';
 import containerStyle from './../../common/Container.module.css'
 import myPhoto from './img/IMG_8607 (1).jpg'
-import {Button} from "../Button/Button";
+import {Button} from "../../common/Button/Button";
 import CV from './img/CV.pdf'
 
 function Main() {
@@ -18,7 +18,8 @@ function Main() {
                         <h1>I'm Mikalai Zarazaka</h1>
                         <span>Frontend Developer</span>
                         <p>I enjoy programming and would like to succeed in software development career. I constantly
-                            polish my tech skills, study new technologies and improve my English.
+                            polish my tech skills, study new technologies and improve my English. In the future I want
+                            to study Angular, Vue.
                         </p>
                         <div className={styles.buttonDownload}>
                             <Button link={CV} download={true} text={'Download CV'}/>
