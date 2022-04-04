@@ -5,7 +5,7 @@ import myPhoto from './img/IMG_8607 (1).jpg'
 import {Button} from "../../common/Button/Button";
 import CV from './img/CV.pdf'
 import Bounce from 'react-reveal/Bounce';
-
+import ReactTypingEffect from 'react-typing-effect';
 
 function Main() {
 
@@ -22,7 +22,10 @@ function Main() {
                         <Bounce right>
                         <div className={styles.greeting}>
                             <h1>I'm Mikalai Zarazaka</h1>
-                            <span>Frontend Developer</span>
+                            <ReactTypingEffect speed={100}
+                                text={["Frontend Developer"]}
+                            />
+                            {/*<span>Frontend Developer</span>*/}
                             <p>I enjoy programming and would like to succeed in software development career. I
                                 constantly
                                 polish my tech skills, study new technologies and improve my English. In the future I
