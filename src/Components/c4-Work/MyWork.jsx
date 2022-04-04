@@ -4,12 +4,14 @@ import containerStyle from './../../common/Container.module.css';
 import {PreviewWork} from "./PreviewWork/PreviewWork";
 import todolist from './img/todolist.png'
 import socialWork from './img/socialNetwork.jpg'
+import Fade from 'react-reveal/Fade';
 
 function MyWork() {
 
 
     return (
         <div id={'MyWork'} className={styles.myWorkContainer}>
+            <Fade left>
             <div className={containerStyle.container}>
                 <h2>My Work</h2>
                 <div className={styles.previewWorkContainer}>
@@ -22,6 +24,7 @@ function MyWork() {
                 </div>
 
             </div>
+            </Fade>
         </div>
     )
 }
