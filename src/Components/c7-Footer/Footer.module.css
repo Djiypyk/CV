@@ -3,14 +3,14 @@
     text-align: center;
     padding: 20px 0 10px 0;
 }
-.footer_name{
+.footerWrapper h3{
     color: white;
-    line-height: 30px;
+    line-height: 24px;
     font-size: 24px;
 }
 .squareWrapper{
     max-width: 500px;
-    margin: 7px auto;
+    margin: 10px auto;
     display: flex;
     justify-content: space-around;
 }

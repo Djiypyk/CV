@@ -11,3 +11,9 @@
     margin-bottom: 40px;
     padding-top: 70px;
 }
+
+@media (max-width: 526px) {
+    .previewWorkContainer{
+        padding-top: 40px;
+    }
+}

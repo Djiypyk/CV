@@ -8,7 +8,7 @@ function Nav() {
             <a href={"#aboutMe"}>About</a>
             <a href={"#skills"}>Skills</a>
             <a href={"#MyWork"}>Project</a>
-            <a href={'#contacts'}>Contact</a>
+            <a href={'#contacts'}>Contacts</a>
         </div>
     );
 }

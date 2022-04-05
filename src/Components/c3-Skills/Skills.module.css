@@ -3,7 +3,9 @@
     padding: 35px 0 15px 0;
 }
 
-
+.skillsBlock h2{
+    text-shadow: #242424 1px 0 3px;
+}
 .skills {
     min-height: 100px;
     padding: 10px 0;

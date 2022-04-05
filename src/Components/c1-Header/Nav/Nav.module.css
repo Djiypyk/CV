@@ -6,8 +6,9 @@
 .nav a {
     text-decoration: none;
     color: #ffffff;
-    font-size: 18px;
+    font-size: 20px;
     letter-spacing: 1.5px;
+    padding: 10px;
 }
 .nav a:hover {
     color: #ffc107;
@@ -17,5 +18,10 @@
     .nav a{
         font-size: 14px;
         font-weight: 800;
+    }
+}
+@media screen and (max-width: 525px) {
+    .nav{
+        display: none;
     }
 }

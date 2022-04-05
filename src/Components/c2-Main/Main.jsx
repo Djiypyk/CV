@@ -28,11 +28,10 @@ function Main() {
                             <ReactTypingEffect speed={100}
                                                text={["Frontend Developer"]}
                             />
-                            <p>I enjoy programming and would like to succeed in software development career. I
-                                constantly
-                                polish my tech skills, study new technologies and improve my English. In the future I
-                                want
-                                to study Angular, Vue.
+                            <p>I'm Front-End developer with experience in creating SPA using
+                                React, Redux, HTML/CSS, JS/TS and etc. In my free time I improve my
+                                English and learn new technologies. In the
+                                future I want to study Angular, Vue.
                             </p>
                             <div className={styles.buttonDownload}>
                                 <Button link={CV} download={true} text={'Download CV'}/>

@@ -28,35 +28,35 @@ export function ContactsForm() {
                     <div className={styles.formItemWrapper}>
                         <form onSubmit={formik.handleSubmit}>
                             <Bounce left>
-                            <div className={styles.inputWrapper}>
-                                <span className={styles.text_field_label}>Name:</span> <br/>
-                                <input placeholder={'Name'}
-                                       className={styles.inputForm}
-                                       type="text"
-                                       {...formik.getFieldProps('name')}
-                                />
-                            </div>
+                                <div className={styles.inputWrapper}>
+                                    <span className={styles.text_field_label}>Name:</span> <br/>
+                                    <input placeholder={'Name'}
+                                           className={styles.inputForm}
+                                           type="text"
+                                           {...formik.getFieldProps('name')}
+                                    />
+                                </div>
                             </Bounce>
                             <Bounce right>
-                            <div className={styles.inputWrapper}>
-                                <span className={styles.text_field_label}>Email:</span> <br/>
-                                <input placeholder={'Email'}
-                                       className={styles.inputForm}
-                                       type="text"
-                                       {...formik.getFieldProps('email')}
-                                />
-                            </div>
-                                </Bounce>
+                                <div className={styles.inputWrapper}>
+                                    <span className={styles.text_field_label}>Email:</span> <br/>
+                                    <input placeholder={'Email'}
+                                           className={styles.inputForm}
+                                           type="text"
+                                           {...formik.getFieldProps('email')}
+                                    />
+                                </div>
+                            </Bounce>
                             <Bounce left>
                             <textarea placeholder={'Write your message'}
                                       className={styles.textAreaFrom}
                                       {...formik.getFieldProps('textarea')}
                             />
                             </Bounce>
-                            <Bounce bottom>
-                            <button className={styles.sendButton} type="submit">Send Message</button>
-                            </Bounce>
-                            </form>
+                            <div>
+                                <button className={styles.sendButton} type="submit">Send Message</button>
+                            </div>
+                        </form>
                     </div>
 
                 </div>

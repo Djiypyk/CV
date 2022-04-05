@@ -12,7 +12,7 @@ export function Footer() {
     return (
         <div className={styles.footerWrapper}>
             <div className={containerStyles.container}>
-                <h3 className={styles.footer_name}>Mikalai Zarazaka</h3>
+                <h3>Mikalai Zarazaka</h3>
                 <div className={styles.squareWrapper}>
                     <SocialLink img={github} socialLink={'https://github.com/Djiypyk'}/>
                     <SocialLink img={instagram} socialLink={'https://www.instagram.com/zarezako.nick/'}/>

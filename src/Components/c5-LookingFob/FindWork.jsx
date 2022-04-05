@@ -3,7 +3,6 @@ import styles from './FindWork.module.css'
 import containerStyles from './../../common/Container.module.css'
 
 export function FindWork() {
-
     return (
         <div className={styles.findWorkWrapper}>
             <div className={containerStyles.container}>
@@ -15,10 +14,10 @@ export function FindWork() {
                             <p> It is possible to move to another city, country.</p>
                         </div>
                         <div className={styles.list}>
-                            <span>Important qualities of work: </span>
-                                <p>A company that wants to grow.</p>
-                                <p>The company values its employees.</p>
-                                <p>Friendly, non-toxic staff.</p>
+                            <span className={styles.importantInJob}>Important qualities of work: </span>
+                            <p>A company that wants to grow.</p>
+                            <p>The company values its employees.</p>
+                            <p>Friendly, non-toxic staff.</p>
                         </div>
                     </div>
                 </div>
