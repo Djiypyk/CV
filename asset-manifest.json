@@ -1,10 +1,10 @@
 {
   "files": {
     "main.css": "/CV/static/css/main.10864f1d.css",
-    "main.js": "/CV/static/js/main.051fcbf0.js",
+    "main.js": "/CV/static/js/main.09a0b2b6.js",
     "static/js/787.1ed0c42c.chunk.js": "/CV/static/js/787.1ed0c42c.chunk.js",
     "static/media/cardApp.png": "/CV/static/media/cardApp.463df18a2a0fa8169ff6.png",
-    "static/media/CV.pdf": "/CV/static/media/CV.d45763c3e1efc93ece5f.pdf",
+    "static/media/CV.pdf": "/CV/static/media/CV.6120440d785694b727ba.pdf",
     "static/media/IMG_8607 (1).jpg": "/CV/static/media/IMG_8607 (1).37492549ed84c703098b.jpg",
     "static/media/socialNetwork.jpg": "/CV/static/media/socialNetwork.869291b409065e94265d.jpg",
     "static/media/todolist.png": "/CV/static/media/todolist.0805b74a733280b91e8d.png",
@@ -21,11 +21,11 @@
     "static/media/telegram.svg": "/CV/static/media/telegram.5950871fd5a03e6d1f40760fc873408e.svg",
     "static/media/css.svg": "/CV/static/media/css.1422a6715ec35fe6db206f409bc04bd5.svg",
     "main.10864f1d.css.map": "/CV/static/css/main.10864f1d.css.map",
-    "main.051fcbf0.js.map": "/CV/static/js/main.051fcbf0.js.map",
+    "main.09a0b2b6.js.map": "/CV/static/js/main.09a0b2b6.js.map",
     "787.1ed0c42c.chunk.js.map": "/CV/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.10864f1d.css",
-    "static/js/main.051fcbf0.js"
+    "static/js/main.09a0b2b6.js"
   ]
 }
