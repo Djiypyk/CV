@@ -3,9 +3,9 @@ import styles from './ContactsForm.module.css'
 import containerStyles from './../../common/Container.module.css'
 import {useFormik} from "formik";
 import Bounce from 'react-reveal/Bounce';
+import axios from "axios";
 
 export function ContactsForm() {
-
     const formik = useFormik({
         initialValues: {
             name: '',
@@ -13,8 +13,7 @@ export function ContactsForm() {
             textarea: '',
         },
         onSubmit: (values) => {
-            alert(JSON.stringify(values, null, 2));
-            console.log(values)
+            axios.post('http://localhost:3010/sendMessage', values).then(() => alert('Your message has been sent'))
             formik.resetForm()
             ;
         },

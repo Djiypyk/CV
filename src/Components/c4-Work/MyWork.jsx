@@ -9,7 +9,6 @@ import Fade from 'react-reveal/Fade';
 
 function MyWork() {
 
-
     return (
         <div id={'MyWork'} className={styles.myWorkContainer}>
             <Fade left>
