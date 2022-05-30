@@ -5,6 +5,7 @@ import {PreviewWork} from "./PreviewWork/PreviewWork";
 import todolist from './img/todolist.png'
 import socialWork from './img/socialNetwork.jpg'
 import cardApp from './img/cardApp.png'
+import UserGitHub from './img/usergithub.png'
 import Fade from 'react-reveal/Fade';
 
 function MyWork() {
@@ -26,6 +27,9 @@ function MyWork() {
                         <PreviewWork photo={cardApp} projectName={'Card Learn App'}
                                      workUrl={'https://theidiet.github.io/group_projest '}
                                      description={'Stack: SCSS, JS/TS, React, Redux-Toolkit, Redux-Saga, Axios, Formik. Team work with github. Using TypeScript for best code control. Refactoring, bug fix, deploying.'}/>
+                        <PreviewWork photo={UserGitHub} projectName={'App for GitHub'}
+                                     workUrl={'https://djiypyk.github.io/testwork-paralect'}
+                                     description={'Stack: TS, React, Redux-Toolkit, Redux-Saga, Axios.  Using TypeScript for best code control. Refactoring, bug fix, deploying.'}/>
                     </div>
 
                 </div>

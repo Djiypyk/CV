@@ -13,7 +13,7 @@ export function ContactsForm() {
             textarea: '',
         },
         onSubmit: (values) => {
-            axios.post('http://localhost:3010/sendMessage', values).then(() => alert('Your message has been sent'))
+            axios.post('https://smtp-nodejs-server-email.herokuapp.com//sendMessage', values).then(() => alert('Your message has been sent'))
             formik.resetForm()
             ;
         },
