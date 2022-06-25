@@ -1,5 +1,6 @@
 .findWorkWrapper {
-    background-color: #4b4b4b;
+    /*background-color: #4b4b4b;*/
+    background: rgba(17, 17, 17, 0.97);
     color: white;
     padding: 35px 0 30px 0;
 }

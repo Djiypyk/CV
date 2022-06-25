@@ -1,5 +1,6 @@
 .myWorkContainer {
-    background: rgba(17, 17, 17, 0.97);
+    /*background: rgba(17, 17, 17, 0.97);*/
+    background-color: #4b4b4b;
     color: white;
     padding: 35px 0 5px 0;
 }

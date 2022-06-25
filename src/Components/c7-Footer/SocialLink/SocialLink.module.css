@@ -1,6 +1,10 @@
 .footer_img {
     width: 40px;
     height: 40px;
+    text-align: center;
+    align-items: center;
+    border: 3px solid rgba(255, 180, 0, 0.48);
+    border-radius: 40%;
 }
 
 .footer_img:hover {
