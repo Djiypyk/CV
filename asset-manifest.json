@@ -1,8 +1,9 @@
 {
   "files": {
-    "main.css": "/CV/static/css/main.10864f1d.css",
-    "main.js": "/CV/static/js/main.7d0a6cbd.js",
+    "main.css": "/CV/static/css/main.67f44194.css",
+    "main.js": "/CV/static/js/main.458ecc1c.js",
     "static/js/787.1ed0c42c.chunk.js": "/CV/static/js/787.1ed0c42c.chunk.js",
+    "static/media/fast-pizza-project.png": "/CV/static/media/fast-pizza-project.7d843d5bd84038f551c0.png",
     "static/media/cardApp.png": "/CV/static/media/cardApp.463df18a2a0fa8169ff6.png",
     "static/media/usergithub.png": "/CV/static/media/usergithub.52bc904d8ebe9c5ae9d5.png",
     "static/media/IMG_8607 (1).jpg": "/CV/static/media/IMG_8607 (1).37492549ed84c703098b.jpg",
@@ -21,12 +22,12 @@
     "static/media/linkedin.svg": "/CV/static/media/linkedin.df8558b5356adc4ccbe73cffdb695860.svg",
     "static/media/telegram.svg": "/CV/static/media/telegram.5950871fd5a03e6d1f40760fc873408e.svg",
     "static/media/css.svg": "/CV/static/media/css.1422a6715ec35fe6db206f409bc04bd5.svg",
-    "main.10864f1d.css.map": "/CV/static/css/main.10864f1d.css.map",
-    "main.7d0a6cbd.js.map": "/CV/static/js/main.7d0a6cbd.js.map",
+    "main.67f44194.css.map": "/CV/static/css/main.67f44194.css.map",
+    "main.458ecc1c.js.map": "/CV/static/js/main.458ecc1c.js.map",
     "787.1ed0c42c.chunk.js.map": "/CV/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.10864f1d.css",
-    "static/js/main.7d0a6cbd.js"
+    "static/css/main.67f44194.css",
+    "static/js/main.458ecc1c.js"
   ]
 }
